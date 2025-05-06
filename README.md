@@ -22,17 +22,28 @@ Ensure these files are included in your project:
 
 ### Configuration Steps
 
-1. **Add Files to Project**:
+1. **Copy Files to Project Directory**:
+   - Copy all required header and source files to your project directory
+   - This ensures Visual Studio can properly reference these files
+
+2. **Add Files to Project**:
    - Add all header files to your project
    - Add source files to a separate filter in your project
 
-2. **Configure C Files**:
+3. **Configure C Files**:
    - Select `sqlite3.c` and `shell.c` in the Solution Explorer
    - Right-click and select Properties
    - Navigate to C/C++ → General
    - Set "Common Language Runtime Support" to "No Common Language Runtime Support"
 
-3. **Database Connection Setup**:
+4. **Configure Include Directories**:
+   - Right-click on your project in Solution Explorer
+   - Select Properties
+   - Navigate to C/C++ → General
+   - In "Additional Include Directories," add the path to your SQLite3 folder
+   - Click OK/Apply to save changes
+
+5. **Database Connection Setup**:
    - In your main form's initialization code (before `Application::Run(% form)`), create a Database object on the heap
    - Store the pointer in `Globals::DB`
    - Example:
@@ -54,6 +65,7 @@ Globals::DB->functionName(parameters);
 ### Database Management
 
 - For schema creation and one-time database modifications, use **DB Browser for SQLite**
+  - Download link: https://sqlitebrowser.org/dl/
 - This GUI tool simplifies database setup and query debugging
 
 ### Data Handling

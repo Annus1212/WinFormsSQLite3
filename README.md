@@ -79,7 +79,7 @@ Helper functions are provided for converting between `System::String^` and `std:
 3. Implement your database functions in Database.h and Database.cpp
 4. Access these functions from your forms using the global database pointer
 
-## Removing Sample Code
+## Sample Code
 
 When starting your own project, you may remove any sample code provided in the function implementations that aren't relevant to your features.
 

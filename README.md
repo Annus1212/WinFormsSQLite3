@@ -5,10 +5,7 @@ This README provides guidance for setting up and working with the WinFormsDB pro
 ## Setup Video
 The following video demonstrates how to add the SQLite library to an existing WinForms project:
 
-<video width="640" height="360" controls>
-  <source src="video/setup.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/c9786639-f276-4f8c-bb8e-a8330c36d01d
 
 ## Project Structure
 

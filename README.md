@@ -2,6 +2,14 @@
 
 This README provides guidance for setting up and working with the WinFormsDB project, which integrates SQLite3 with a C++/CLI WinForms application.
 
+## Setup Video
+The following video demonstrates how to add the SQLite library to an existing WinForms project:
+
+<video width="640" height="360" controls>
+  <source src="video/setup.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Project Structure
 
 The project consists of the following key files:
